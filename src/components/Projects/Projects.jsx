@@ -10,11 +10,11 @@ const ORANGE = "#e87808";
 // Supported formats: .mp4, .webm, .ogg
 // ─────────────────────────────────────────────
 const cards = [
-  { id: 1, video: "/acte.mp4", title: "Event Documentry",    tag: "Documentry",      delay: 400 },
-  { id: 2, video: "/actb.mov", title: "Crime Documentry",    tag: "2.5D video",       delay: 200 },
-  { id: 3, video: "/acta.mp4", title: "3d Cinematic",    tag: "Cinematic", delay: 0 },
-  { id: 4, video: "/actc.mp4", title: "Primium Saas",  tag: "Saas video",        delay: 200 },
-  { id: 5, video: "/actd.mp4", title: "3D Documentry",  tag: "3d video",        delay: 400 },
+  { id: 1, video: "https://youtu.be/2KSx4UKKFXo?si=ccYdZVfgHclUkYN", title: "Event Documentry",    tag: "Documentry",      delay: 400 },
+  { id: 2, video: "https://youtu.be/DMGoPhWHiJ4?si=gLGi_4v9IkY3IJbI", title: "Crime Documentry",    tag: "2.5D video",       delay: 200 },
+  { id: 3, video: "https://youtu.be/mjQCvh6bLi0?si=nvqtxSHv6BlI8f0I", title: "3d Cinematic",    tag: "Cinematic", delay: 0 },
+  { id: 4, video: "https://youtu.be/XnKydi28Nec?si=nI2To3uFaU3tzTKW", title: "Primium Saas",  tag: "Saas video",        delay: 200 },
+  { id: 5, video: "https://youtu.be/M2CVNThTGsU?si=eeJK3sQlEjc9zrMx", title: "3D Documentry",  tag: "3d video",        delay: 400 },
 ];
 
 // ─────────────────────────────────────────────────────────────────────────────
