@@ -129,27 +129,7 @@ export default function Timeline() {
 
   return (
     <div id="career" className="min-h-screen bg-[#0a0a0a] text-white ">
-      <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=DM+Mono:wght@300;400&display=swap');
-        .font-display  { font-family: 'Cormorant Garamond', serif; }
-        .font-mono-alt { font-family: 'DM Mono', monospace; }
 
-        .step-text { transition: opacity .6s ease, transform .6s ease, filter .6s ease; }
-        .step-text.inactive { opacity:.18; filter:blur(1px); transform:translateY(4px); }
-        .step-text.active   { opacity:1;   filter:blur(0);   transform:translateY(0); }
-
-        .step-title { transition: opacity .6s ease, color .6s ease; }
-        .step-title.inactive { opacity:.2; color:#555; }
-        .step-title.active   { opacity:1;  color:#F97316; }
-
-        .dot-ring { transition: transform .4s ease, box-shadow .4s ease, background .4s ease, border-color .4s ease; }
-        .dot-ring.active {
-          transform: scale(1.4);
-          box-shadow: 0 0 0 6px rgba(200,240,96,.12), 0 0 20px rgba(200,240,96,.2);
-        }
-        .progress-line { transition: height .7s cubic-bezier(.4,0,.2,1); }
-        .step-num { transition: opacity .4s ease, color .4s ease; }
-      `}</style>
 
       {/* ── Sticky header ── */}
       <div className="sticky top-0 z-50 px-5 sm:px-12 py-4 sm:py-6 flex items-center justify-between border-b border-white/5 bg-[#0a0a0a]/90 backdrop-blur-sm">

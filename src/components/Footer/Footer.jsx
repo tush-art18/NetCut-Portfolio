@@ -1,25 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap');
-        .footer-root { font-family: 'DM Sans', sans-serif; }
 
-        /* link underline sweep */
-        .f-link { position: relative; }
-        .f-link::after {
-          content: '';
-          position: absolute;
-          bottom: -2px; left: 0;
-          width: 0; height: 1px;
-          background: #e87808;
-          transition: width 0.3s ease;
-        }
-        .f-link:hover::after { width: 100%; }
-
-        /* social icon */
-        .soc:hover { background: #e87808 !important; color: #fff !important; }
-      `}</style>
 
       <footer id="footer" className="w-full footer-root" style={{ background: "#111111" }}>
 

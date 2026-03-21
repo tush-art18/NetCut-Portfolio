@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 const stats = [
     { value: '2+', label: 'Years of Experience' },
@@ -100,7 +100,12 @@ const About = () => {
                     {/* Stats row */}
                     <div className={`grid grid-cols-2 sm:grid-cols-4 gap-6 pt-4 border-t border-white/10 ${cls('animate__fadeIn')}`}
                         style={anim('animate__fadeIn', '1.1s', '1s')}>
-                        
+                        {stats.map((s, index) => (
+                            <div key={index} className="flex flex-col gap-1">
+                                <h3 className="text-3xl font-black text-white m-0 tracking-tight">{s.value}</h3>
+                                <p className="text-white/50 text-xs font-semibold uppercase tracking-widest leading-snug">{s.label}</p>
+                            </div>
+                        ))}
                     </div>
 
                     {/* CTA */}

@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 /* ── Software skills with brand colours and SVG icons ── */
 const skillsData = [
