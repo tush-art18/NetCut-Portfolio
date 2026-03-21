@@ -29,15 +29,17 @@ export default function Footer() {
             className="flex flex-wrap items-center justify-center gap-6 mx-auto rounded-2xl max-w"
             style={{
               background: "#F97316",
-              padding: "clamp(28px,5vw,44px) clamp(24px,5vw,52px)",
+              padding: "clamp(28px,5vw,44px) clamp(24px,5vw,44px)",
               maxWidth: 1200
             }}
           >
             <div className="text-center">
-              <p className="font-extrabold leading-tight text-white"
-                style={{ fontSize: "clamp(1.5rem,3vw,2.1rem)" }}>
-                Let's Create Something Good<br />Together
+              <p className="font-extrabold leading-tight headline"
+                style={{ fontSize: "clamp(2.5rem,3vw,2.1rem)" }}>
+                Let's Create Something Good
               </p>
+              <p className="font-extrabold leading-tight headline"
+              style={{ fontSize: "clamp(2.5rem,3vw,2.1rem)" }}>Together</p>
             </div>
           </div>
         </div>

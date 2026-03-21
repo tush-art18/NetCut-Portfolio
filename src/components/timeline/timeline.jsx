@@ -159,14 +159,14 @@ export default function Timeline() {
         </span>
       </div>
       
-      <div className="relative z-10 px-4 pt-6 leading-none text-center heading-anim headline">
+      <div className="relative z-10 px-4 pt-6 leading-none text-center heading-anim headline mt-[20px]">
         <p>
             Career Timeline
         </p>
       </div>
 
       {/* ── Timeline wrapper ── */}
-      <div ref={containerRef} className="relative max-w-5xl px-5 py-16 mx-auto sm:px-10 md:px-16 sm:py-24 mt-[-100px]">
+      <div ref={containerRef} className="relative max-w-5xl px-5 py-16 mx-auto sm:px-10 md:px-16 sm:py-24 ">
 
         {/* Track lines */}
         <div className="absolute left-[1.75rem] sm:left-[2.75rem] top-0 bottom-0 w-px bg-white/8 md:hidden" />

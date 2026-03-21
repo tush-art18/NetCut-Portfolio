@@ -120,11 +120,9 @@ html, body { width: 100%; background: #000; font-family: 'Outfit', sans-serif; }
   font-size: clamp(2.6rem, 4vw, 7rem);
   letter-spacing: 0.07em;
   
-  /* Default margin (Desktop) */
-  margin-bottom: 4rem;
 
   /* Gradient Text Effect */
-  background: linear-gradient(140deg, #fff 25%, #FFA500 100%); /* Replace #FFA500 with your orange hex */
+  background: linear-gradient(180deg, #fff 35%, #ff7700 100%); /* Replace #FFA500 with your orange hex */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
