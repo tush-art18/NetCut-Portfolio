@@ -4,7 +4,6 @@ const stats = [
     { value: '2+', label: 'Years of Experience' },
     { value: '120+', label: 'Projects Completed' },
     { value: '40+', label: 'Happy Clients' },
-    { value: '15+', label: 'Awards Won' },
 ];
 
 const skills = [
@@ -102,8 +101,8 @@ const About = () => {
                         style={anim('animate__fadeIn', '1.1s', '1s')}>
                         {stats.map((s, index) => (
                             <div key={index} className="flex flex-col gap-1">
-                                <h3 className="text-3xl font-black text-white m-0 tracking-tight">{s.value}</h3>
-                                <p className="text-white/50 text-xs font-semibold uppercase tracking-widest leading-snug">{s.label}</p>
+                                <h3 className="m-0 text-3xl font-black tracking-tight text-white">{s.value}</h3>
+                                <p className="text-xs font-semibold leading-snug tracking-widest uppercase text-white/50">{s.label}</p>
                             </div>
                         ))}
                     </div>

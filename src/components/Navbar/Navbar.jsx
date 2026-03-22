@@ -5,9 +5,9 @@ const Navbar = () => {
     <nav className="absolute top-0 left-0 right-0 z-50 flex items-center justify-between px-10 py-6 bg-transparent desktop-nav lg:px-16">
 
       {/* Logo */}
-      <div className="text-3xl tracking-widest text-white font-bebas animate__animated animate__fadeIn"
+      <div className="flex gap-1 text-3xl tracking-widest text-white font-bebas animate__animated animate__fadeIn"
            style={{ animationDuration: '1s', animationFillMode: 'both' }}>
-        NetSat
+        <img src="/netset-logo.png" alt="" className="h-7" />etSat
       </div>
 
       {/* Nav links */}
