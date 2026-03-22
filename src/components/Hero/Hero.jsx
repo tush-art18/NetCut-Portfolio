@@ -136,13 +136,15 @@ const Hero = () => {
       <div className="relative z-10 flex flex-col min-h-screen px-5 pt-3 md:hidden">
 
         {/* Logo only — no nav links per wireframe */}
-        <div className="pt-4 pb-2 text-3xl tracking-widest text-white font-bebas">NetCut</div>
+        <div className="flex gap-1 pt-4 pb-2 text-2xl tracking-widest text-white font-bebas">
+          <img src="/netset-logo.png" alt="" className="h-6" />etSat
+          </div>
 
         {/* Spacer for photo area */}
-        <div style={{ height: '50vh' }} />
+        <div style={{ height: '42vh' }} className="md:hidden" />
 
         {/* Text centered */}
-        <div className={`slide-up ${active ? 'active' : ''} text-center flex flex-col items-center gap-2 pb-4`}
+        <div className={`slide-up ${active ? 'active' : ''} text-center flex flex-col items-center gap-1 pb-4`}
              style={delay(400)}>
           <p className="font-grotesk text-white/55 text-xs tracking-[0.3em] uppercase">Hey, I'm a</p>
           <h1 className="font-bebas text-[clamp(4.5rem,20vw,7rem)] leading-none text-white text-cinematic-shadow m-0">
@@ -152,7 +154,7 @@ const Hero = () => {
               style={{ color: 'transparent', WebkitTextStroke: '2px #ffffff' }}>
             EDITOR
           </h1>
-          <p className={`orange-line ${active ? 'active' : ''} font-grotesk text-white text-base font-semibold mt-3`}>
+          <p className={`orange-line ${active ? 'active' : ''} font-grotesk text-white text-[15px] font-semibold mt-2`}>
             Great edits should feel invisible.
           </p>
         </div>
