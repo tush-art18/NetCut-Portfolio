@@ -155,7 +155,7 @@ export default function Footer() {
           </p>
         </div>
         <div className="px-10 py-4 text-white">
-            <p>Design and developed by <a href="" className="text-white text-[16px] font-bold">Pala<span className="text-[#6B3FFF]">Sync</span></a></p>
+            <p className="text-white">Design and developed by <a href="" className="text-white text-[16px] font-bold">Pala<span className="text-[#6B3FFF]">Sync</span></a></p>
         </div>
 
       </footer>
