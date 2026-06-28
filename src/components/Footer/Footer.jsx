@@ -155,9 +155,7 @@ export default function Footer() {
           </p>
         </div>
         <div className="px-10 py-4">
-            <p className="text-xs" style={{ color: "rgba(255,255,255,0.25)" }}>
-            <a href="https://tushar-palase.vercel.app/" target="_blank">Developed by : <span className="text-[#F97316]">TushArt</span></a>
-        </p>
+            <p>Design and developed by <a href="" className="text-white text-[16px] font-bold">Pala<span className="text-[#6B3FFF]">Sync</span></a></p>
         </div>
 
       </footer>
